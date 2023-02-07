@@ -1,0 +1,20 @@
+//Services.js-modules
+import React from 'react'
+
+//create About Component
+function Contact() {
+    return (<>
+        <h1 classNmae="text-center text-primary">Contact Component</h1>
+        <p class ="para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's s
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived no
+into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release 
+and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        
+        
+        
+    </>)
+}
+
+export default Contact;

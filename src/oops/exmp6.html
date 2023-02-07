@@ -1,0 +1,69 @@
+
+
+<script>
+
+    //js globel avariable  access from function globel objects
+    
+    //variable;value function name() {this.globle varablrs}
+    
+        //function with return key word concepts in  variable
+        
+            class user {
+                //class properties//variables
+                     uid;
+                     uname;
+                     uemail;
+                     
+                     
+                     
+            
+            //class methods functions
+                     Myfun1(request,id)// function
+                     {
+                         var msg =request
+                        return `${msg}-${this.uid=id}<br/>`
+                     }
+            
+                     Myfun2=function(request,name)
+                     {
+        
+                        var msg= request 
+                        return `${msg}- ${this.uname=name}<br/>`
+        
+                     }
+            
+                   Myfun3= (request,email)=>
+                   {
+                     var msg=(request)
+                     return `${msg}-${this.uemail=email}<br/>`
+                   }
+            
+        
+            }
+            
+            //object of the class
+            //var objectName=new classname
+            var u = new user
+            
+            /*document.write(`<h3> class properties Data</h3> <br/>
+            
+                      UID is:${u.uid}<br />
+                      UNAME is :${u.uname}<br />
+                      UEMAIL is :${u.uemail}<br />
+                     
+                  `)*/
+            
+            document.write(`<h4> class properties  method data</h3> <br/><br/>
+                
+                ${u.Myfun1("NAmed Function with Argument",109)}<br />
+            
+                ${u.Myfun2("call back functions with Argument","venky")}<br />
+            
+                ${u.Myfun3("arrow functions with Argument","venky@gmail.com")}<br />
+                `);
+               
+               
+        
+            
+            
+            </script>

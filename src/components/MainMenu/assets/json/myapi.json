@@ -1,0 +1,79 @@
+
+
+{
+
+
+    "users":
+    [
+       {
+        "id":1,
+        "name":"venkatesh",
+        "email":"venky@gmail.com",
+        "phone":9391298068
+       },
+       {
+        "id":2,
+        "name":"venkatesh",
+        "email":"venky@gmail.com",
+        "phone":93912980567
+       },
+       
+       {
+        "id":3,
+        "name":"venkatesh",
+        "email":"venky@gmail.com",
+        "phone":9391295467
+       },
+       
+       {
+        "id":4,
+        "name":"venkatesh",
+        "email":"venky@gmail.com",
+        "phone":657891298
+       }
+    ],
+
+
+"bookings":
+[
+    {
+        "sno":1,
+        "Databokings":"30-09-2022",
+        "product": "MI MoBILE"
+
+    },
+
+    {
+        "sno":2,
+        "Databokings":"29-08-2022",
+        "product": "VIVO MoBILE"
+    }
+],
+
+"admins":
+[
+    {
+          "sno":1,
+           "uname":"venkatesh",
+           "mobile": 9391298068
+    },
+    {
+        "sno":2,
+         "uname":"vijay",
+         "mobile": 9391298068
+  },
+  {
+    "sno":3,
+     "uname":"vasu",
+     "mobile": 9391298068
+},
+
+{
+    "sno":4,
+     "uname":"vinay",
+     "mobile": 9391298068
+}
+]
+
+
+}

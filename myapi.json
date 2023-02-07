@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Prashanth",
+      "email": "prashanth@gamil.com",
+      "phone": "9666143638",
+      "id": 2
+    },
+    {
+      "name": "Arjun",
+      "email": "Arjun@gamil.com",
+      "phone": "9989556508",
+      "id": 4
+    },
+    {
+      "name": "Swathi",
+      "email": "Swathi@gamil.com",
+      "phone": "9666143638",
+      "id": 5
+    },
+    {
+      "name": "Srikanth",
+      "email": "Srikanth@gamil.com",
+      "phone": "9666143638",
+      "id": 6
+    },
+    {
+      "name": "Sidhiksha",
+      "email": "sidhiksha@gmail.com",
+      "phone": "9912908599",
+      "id": 7
+    },
+    {
+      "name": "bembadi prashanth reddy",
+      "email": "bembadiprashanthreddy@gmail.com",
+      "phone": "9346727834",
+      "id": 8
+    }
+  ]
+}

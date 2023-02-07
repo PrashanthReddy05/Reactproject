@@ -1,0 +1,20 @@
+<script>
+    class Admin {
+        myfun(){
+            return "This is AdmionFunction <br>";
+            
+        }
+    }
+    class User extends Admin{
+        Userfun(){
+        return `This is USERFunction <br> `
+        
+    }
+} 
+    var u = new User
+
+    document.write(`Chidclass-${u.myfun()}<br/>`)
+    document.write(`Parentclass-${u.Userfun()}<br/>`)
+    
+
+</script>
